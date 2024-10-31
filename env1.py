@@ -3,7 +3,7 @@ import streamlit as st
 from google.cloud import bigquery
 
 # 서비스 계정 JSON 파일의 경로를 환경 변수로 설정
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "semiotic-vial-440207-q4-898f401704c0.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "semiotic-vial-440207-q4-8235ac99e900.json"
 
 # BigQuery 클라이언트 생성 (프로젝트 ID를 명시적으로 지정)
 project_id = "semiotic-vial-440207-q4"
