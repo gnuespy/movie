@@ -1,3 +1,6 @@
+import gcp_auth
+gcp_auth.setup_google_cloud_credentials("semiotic-vial-440207-q4", "moviejj")
+
 import os
 import streamlit as st
 from google.cloud import secretmanager
